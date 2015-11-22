@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width:1022px;	
+	border:1px solid #FF9BBE;
+}
+
+h2{
+	border-bottom:1px solid #FF9BBE;
+	background-color:#FFEEF4;
+	font-size:12px;
+	padding:10px;
+	line-height:1;
+}
+
+.bn_trash{
+	float:left;
+	padding:20px 19px 0 23px;
+	width:80px;
+}
+
+.cont{
+	float:left;
+	margin:10px 10px 0 0;
+}
+
+td {
+    border: 1px solid #DDDDDD;
+    font-size: 12px;
+    line-height: 1;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background:#FFF7FA;
+}
+
+.name{
+	width:740px;
+}
+
+.area {
+    width: 70px;
+}
+
+.plan {
+    width: 40px;
+}
+
+.box {
+    font-size: 12px;
+    margin: 50px 0 20px;
+}
+
+.box p{
+}
+
+.btn{
+	margin:10px 0 50px;
+}
+
+.btn button{
+	width:130px;
+}

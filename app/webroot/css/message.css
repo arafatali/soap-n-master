@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width:1022px;	
+	border:1px solid #FFCE9D;
+}
+
+h2{
+	border-bottom:1px solid #FFCE9D;
+	background-color:#FFFDF4;
+	font-size:12px;
+	padding:10px;
+	line-height:1;
+}
+
+table {
+    margin: 10px;
+    width: 1002px;
+}
+
+td {
+    border: 1px solid #DDDDDD;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 6px;
+}
+
+tr td:first-child{
+	background-color:#F5F5F0;
+	width:100px;
+}
+
+.text {
+    padding: 3px;
+    width: 860px;
+}
+
+.textarea {
+    height: 200px;
+    padding: 3px;
+    width: 860px;
+}
+
+.select {
+    padding: 3px;
+    width: 120px;
+}
+
+.select2 {
+    margin: 0 5px 0 0;
+}
+
+.btn {
+    margin: 50px auto;
+    text-align: center;
+    width: 1022px;
+}
+
+.btn button{
+	width:130px;
+}

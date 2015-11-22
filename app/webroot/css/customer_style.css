@@ -1,0 +1,5 @@
+body{width:800px;margin:0 auto;}
+#flashMessage{width:300px;padding:10px;}
+.link_area li{padding:5px; margin:0px;}
+.link_area a{padding:10px; margin:0px;}
+.link_area .logot a{float:right;color:red;font-weight:bold;}

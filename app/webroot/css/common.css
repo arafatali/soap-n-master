@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =============================================================================
+   Reset
+   ========================================================================== */
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+img{
+	vertical-align:bottom;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+body {
+	background-color:#FFFFFF;
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	font-size: 14px;
+	line-height:1.6;
+	letter-spacing:0;
+	color:#333333;
+}
+
+#header{
+	width:1024px;
+	height:72px;
+	margin:0 auto;
+	position:relative;
+}
+
+#header h1 {
+	position:absolute;
+	top:14px;
+	left:5px;
+}
+
+#header .ver {
+    font-size: 12px;
+    left: 211px;
+    position: absolute;
+    top: 33px;
+}
+
+#header .btn_top {
+    right: 0px;
+    position: absolute;
+    top: 9px;
+}
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+
+#footer{
+	width:100%;
+	text-align:center;
+	background-color:#EDEDED;
+	margin:40px 0 0;
+}
+
+address {
+    font-size: 10px;
+	line-height:1.0;
+	padding:20px;
+	font-style:normal;	
+}
+
+#address {
+    background-color: #EDEDED;
+    margin: 20px 0 0;
+    padding: 20px 0;
+    width: 100%;
+	position:static;
+}
+
+/* =============================================================================
+   Navi
+   ========================================================================== */
+
+
+/* =============================================================================
+   Main
+   ========================================================================== */
+
+#wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1024px;
+}
+
+/* =============================================================================
+   Left-Contents
+   ========================================================================== */
+
+
+/* =============================================================================
+   Link
+   ========================================================================== */
+
+a:link, a:hover ,a:visited{   
+	text-decoration:underline;
+	color:#EB5285;
+}
+
+a:hover{  
+	color:#FD9ABB;
+}
+
+a:hover img {
+	filter:Alpha(opacity=70) ;
+	opacity:0.7 ;
+	-moz-opacity:0.7;
+}
+
+/* =============================================================================
+   Scroll
+   ========================================================================== */
+
+/* 全体 */
+.jspContainer { 
+	overflow:hidden;
+	position:relative;
+}
+
+/* スクロールバーを除いたエリア */
+.jspPane { 
+	position:absolute;
+}
+
+/* 縦スクロールバー */
+.jspVerticalBar {
+	position:absolute;
+	top:0;
+	right:0;
+	width:10px;
+	height:100%;
+}
+
+/* 横スクロールバー */
+.jspHorizontalBar { 
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10px;
+}
+
+/* 背景 */
+.jspTrack { 
+	position:relative;
+	background-color:#FBDBE6;
+}
+
+/* ノブ */
+.jspDrag {
+	background-color:#F4A3BE;
+	position:relative;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+	float:left;
+	height:100%;
+}
+

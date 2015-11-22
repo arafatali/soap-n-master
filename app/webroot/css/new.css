@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+/*
+.btn_box {
+    float: right;
+	margin:9px 0 0;
+}
+
+.btn_box ul{
+    overflow:hidden;
+}
+
+.btn_box li{
+	float:left;
+	margin:0 5px 0 0;
+}
+
+.btn_massege {
+    background: url(../../img/btn_message.jpg) no-repeat;
+    border:none;
+    height: 55px;
+    width: 250px;
+	cursor:pointer;
+}
+
+.btn_delete {
+    background: url(../../img/btn_delete.jpg) no-repeat;
+    border:none;
+    height: 55px;
+    width: 120px;
+	cursor:pointer;
+}*/
+
+/* =============================================================================
+   Main
+   ========================================================================== */
+
+.notice{
+	font-size:12px;
+	margin:0 0 10px;
+}
+
+#main_box, hr {
+    width: 686px;
+}
+
+td {
+    border: 1px solid #DDDDDD;
+    font-size: 12px;
+    line-height: 1;
+    padding: 6px;
+}
+
+tr td:first-child{
+	/*background-color:#F5F5F0;
+	width:108px;*/
+}
+
+.text {
+    padding: 3px;
+    width: 543px;
+}
+
+.textarea {
+    height: px;
+    padding: 3px;
+    width: px;
+}
+
+.select {
+    padding: 3px;
+    width: 120px;
+}
+
+.select2 {
+    width: 56px;
+}
+
+.selectC {
+    padding: 3px;
+    width: 80px;
+}
+
+.checkboxC{padding: 5px;width: 50px; color: #222222;}
+
+.text1{
+	width:377px;
+}
+.text2{
+	width:177px;
+}
+
+.text3{
+	width:47px;
+}
+
+.shop_index tr td:first-child{
+	background-color:#F5F5F0;
+}
